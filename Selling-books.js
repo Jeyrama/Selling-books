@@ -50,3 +50,5 @@ function stockList(listOfArt, listOfCat) {
     return '(' + c + ' : ' + (qs[c] | 0) + ')';  
   }).join(' - ');  
 }
+
+// or
